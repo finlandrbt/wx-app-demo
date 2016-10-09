@@ -1,0 +1,55 @@
+<view style="height:1px; background-color:gainsboro"></view>
+<view style="height:20px; background-color:white"></view>
+<view class="title">从小到大依次点击所有数字</view>
+<view style="height:20px; background-color:white"></view>
+<view style="height:1px; background-color:gainsboro"></view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_gray">分数：{{score}}</view>
+    <view class="flex-item bc_gray">关卡：{{level}}</view>
+</view>
+<view style="height:20px; background-color:white"></view>
+<view class="box-wrp" style="flex-direction:column;">
+    <view class="box-wrp" style="flex-direction:row;">
+        <view class="box-item {{c_0}}" bindtap="hit" id="0">{{b_0}}</view>
+        <view class="box-item {{c_1}}" bindtap="hit" id="1">{{b_1}}</view>
+        <view class="box-item {{c_2}}" bindtap="hit" id="2">{{b_2}}</view>
+        <view class="box-item {{c_3}}" bindtap="hit" id="3">{{b_3}}</view>
+        <view class="box-item {{c_4}}" bindtap="hit" id="4">{{b_4}}</view>
+    </view>
+    <view class="box-wrp" style="flex-direction:row;">
+        <view class="box-item {{c_5}}" bindtap="hit" id="5">{{b_5}}</view>
+        <view class="box-item {{c_6}}" bindtap="hit" id="6">{{b_6}}</view>
+        <view class="box-item {{c_7}}" bindtap="hit" id="7">{{b_7}}</view>
+        <view class="box-item {{c_8}}" bindtap="hit" id="8">{{b_8}}</view>
+        <view class="box-item {{c_9}}" bindtap="hit" id="9">{{b_9}}</view>
+    </view>
+    <view class="box-wrp" style="flex-direction:row;">
+        <view class="box-item {{c_10}}" bindtap="hit" id="10">{{b_10}}</view>
+        <view class="box-item {{c_11}}" bindtap="hit" id="11">{{b_11}}</view>
+        <view class="box-item {{c_12}}" bindtap="hit" id="12">{{b_12}}</view>
+        <view class="box-item {{c_13}}" bindtap="hit" id="13">{{b_13}}</view>
+        <view class="box-item {{c_14}}" bindtap="hit" id="14">{{b_14}}</view>
+    </view>
+    <view class="box-wrp" style="flex-direction:row;">
+        <view class="box-item {{c_15}}" bindtap="hit" id="15">{{b_15}}</view>
+        <view class="box-item {{c_16}}" bindtap="hit" id="16">{{b_16}}</view>
+        <view class="box-item {{c_17}}" bindtap="hit" id="17">{{b_17}}</view>
+        <view class="box-item {{c_18}}" bindtap="hit" id="18">{{b_18}}</view>
+        <view class="box-item {{c_19}}" bindtap="hit" id="19">{{b_19}}</view>
+    </view>
+    <view class="box-wrp" style="flex-direction:row;">
+        <view class="box-item {{c_20}}" bindtap="hit" id="20">{{b_20}}</view>
+        <view class="box-item {{c_21}}" bindtap="hit" id="21">{{b_21}}</view>
+        <view class="box-item {{c_22}}" bindtap="hit" id="22">{{b_22}}</view>
+        <view class="box-item {{c_23}}" bindtap="hit" id="23">{{b_23}}</view>
+        <view class="box-item {{c_24}}" bindtap="hit" id="24">{{b_24}}</view>
+    </view>
+</view>
+<audio
+    src="{{current.src}}"
+    author="{{current.author}}"
+    name="{{current.name}}"
+    poster="{{current.poster}}"
+    action="{{audioAction}}"
+    bindplay="audioPlayed">
+</audio>
