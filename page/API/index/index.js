@@ -103,6 +103,10 @@ Page({
         zhName: '文件',
         enName: 'saveFile',
         url: '../file/file'
+      }, {
+        zhName: '视频',
+        enName: 'recordVideo',
+        url: '../video/video'
       }]
     }, {
       name: '位置',

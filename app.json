@@ -55,6 +55,7 @@
       "page/API/image/image",
       "page/API/voice/voice",
       "page/API/file/file",
+      "page/API/video/video",
       "page/API/on-accelerometer-change/on-accelerometer-change",
       "page/API/canvas/canvas",
       "page/API/background-audio/background-audio",
